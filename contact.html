@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact • VKA</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png?v=2" alt="VKA Logo" class="logo" loading="eager" onerror="this.style.display='none'">
+        <span class="brand-text">VKA</span>
+      </a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="products.html" data-i18n="nav_products">Products</a>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="contact.html" class="active" data-i18n="nav_contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="tel:+912333214210" class="btn btn-small">📞 Call</a>
+        <button id="langToggle" class="btn small" data-i18n="lang_toggle">मराठी</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 data-i18n="contact_title">Contact Us</h1>
+
+    <div class="contact-grid">
+      <div>
+        <h3 data-i18n="contact_reach">Reach us</h3>
+        <ul class="list">
+          <li><strong data-i18n="label_phone">Phone</strong>: <a href="tel:+912333214210">02333 214210</a></li>
+          <li><strong>WhatsApp</strong>: <a href="https://wa.me/912333214210" target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+          <li><strong data-i18n="label_email">Email</strong>: <a href="mailto:vkaavajare@gmail.com">vkaavajare@gmail.com</a></li>
+          <li><strong data-i18n="label_address">Address</strong>: Pate No. 7191, Bapurao Patil Galli, Sonali Naka, Takali Road, Takali - 416 111, Ta. Miraj, Dist. Sangli, Maharashtra</li>
+          <li><strong data-i18n="label_hours">Hours</strong>: Mon-Sat: 9:00 AM - 7:00 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="contact_form">Enquiry form</h3>
+        <form action="https://formspree.io/f/your-id" method="POST" class="form">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="tel" name="phone" placeholder="Phone" required>
+          <input type="email" name="email" placeholder="Email">
+          <textarea name="message" rows="4" placeholder="Your message"></textarea>
+          <button class="btn" type="submit" data-i18n="send">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vijay Krushi Avajare</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/912333214210" target="_blank" rel="noopener" aria-label="WhatsApp"></a>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

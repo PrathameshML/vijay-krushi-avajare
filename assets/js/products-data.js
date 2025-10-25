@@ -1,0 +1,328 @@
+// Embedded products data - no server needed!
+window.PRODUCTS_DATA = [
+  {
+    "name": "VKA-178BR Diesel Power Weeder (Back Rotor)",
+    "name_mr": "VKA-178BR डिझेल पॉवर वीडर (बॅक रोटर)",
+    "category": "Power Weeder",
+    "keywords": ["diesel", "178F", "back rotor", "vka"],
+    "images": ["images/VKA-178BR_Diesel_Power_Weeder.png"],
+    "specs": {
+      "Engine Type": "Single Cylinder Four Stroke Air Cooled",
+      "Gear": "Gear Type",
+      "Engine Model": "178F",
+      "Engine Power": "≈5.2 kW",
+      "Engine Speed": "3600 RPM",
+      "Start": "Recoil",
+      "Gross Weight": ">160 kg",
+      "Blade Set": "2 (No of Blade 18 & 10)"
+    }
+  },
+  {
+    "name": "V-Power 700 Gear Driven Power Weeder",
+    "name_mr": "V-Power 700 गियर ड्रिव्हन पॉवर वीडर",
+    "category": "Power Weeder",
+    "keywords": ["petrol", "170F", "gear driven", "v-power"],
+    "images": ["images/V-Power_700_Gear_Driven_Power_Weeder.png"],
+    "specs": {
+      "Engine Type": "Single Cylinder Four Stroke Air Cooled Spark Ignition",
+      "Gear": "Gear Type",
+      "Engine Model": "170F",
+      "Engine Power": "≈5.1 kW",
+      "Engine Speed": "3200 RPM",
+      "Start": "Recoil",
+      "Gross Weight": ">85 kg",
+      "Blade Set": "1 (No of Blade 32 with Side Disk)"
+    }
+  },
+  {
+    "name": "VKA-170FG Belt Driven Power Weeder",
+    "name_mr": "VKA-170FG बेल्ट ड्रिव्हन पॉवर वीडर",
+    "category": "Power Weeder",
+    "keywords": ["petrol", "170F", "belt driven", "vka"],
+    "images": ["images/VKA-170FG_Belt_Driven_Power_Weeder.png"],
+    "specs": {
+      "Transmission": "Belt Type",
+      "Engine Model": "170F",
+      "Fuel": "Petrol"
+    }
+  },
+  {
+    "name": "VKA-170G Gear Driven Power Weeder",
+    "name_mr": "VKA-170G गियर ड्रिव्हन पॉवर वीडर",
+    "category": "Power Weeder",
+    "keywords": ["petrol", "170G", "gear driven", "vka"],
+    "images": ["images/VKA-170G_Gear_Driven_Power_Weeder.png"],
+    "specs": {
+      "Transmission": "Gear Type",
+      "Engine Model": "170G",
+      "Fuel": "Petrol"
+    }
+  },
+  {
+    "name": "VKA-44F Gasoline Rotary Intercultivator",
+    "name_mr": "VKA-44F गॅसोलीन रोटरी इंटरकल्टिव्हेटर",
+    "category": "Intercultivator",
+    "keywords": ["gasoline", "44F", "rotary", "vka"],
+    "images": ["images/VKA-44F_Gasoline_Rotary_Intercultivator.png"],
+    "specs": {
+      "Type": "Gasoline Rotary",
+      "Model": "44F"
+    }
+  },
+  {
+    "name": "VKA-50F Gasoline Rotary Intercultivator",
+    "name_mr": "VKA-50F गॅसोलीन रोटरी इंटरकल्टिव्हेटर",
+    "category": "Intercultivator",
+    "keywords": ["gasoline", "50F", "rotary", "vka"],
+    "images": ["images/VKA-50F_Gasoline_Rotary_Intercultivator.png"],
+    "specs": {
+      "Type": "Gasoline Rotary",
+      "Model": "50F"
+    }
+  },
+  {
+    "name": "VKA-PW-12DE Power Tiller",
+    "name_mr": "VKA-PW-12DE पॉवर टिलर",
+    "category": "Power Tiller",
+    "keywords": ["diesel", "12DE", "tiller", "vka"],
+    "images": ["images/VKA-PW-12DE_Power_Tiller.png"],
+    "specs": {
+      "Model": "PW-12DE",
+      "Fuel": "Diesel"
+    }
+  },
+  {
+    "name": "VKA-PW-9000 Power Tiller",
+    "name_mr": "VKA-PW-9000 पॉवर टिलर",
+    "category": "Power Tiller",
+    "keywords": ["9000", "tiller", "vka"],
+    "images": ["images/VKA-PW-9000_Power_Tiller.png"],
+    "specs": {
+      "Model": "PW-9000"
+    }
+  },
+  {
+    "name": "VKA-173FA HTP Sprayer",
+    "name_mr": "VKA-173FA HTP स्प्रेयर",
+    "category": "HTP Sprayer",
+    "keywords": ["173FA", "htp", "sprayer", "vka"],
+    "images": ["images/VKA-173FA.png"],
+    "specs": {
+      "Model": "173FA",
+      "Type": "HTP Power Sprayer"
+    }
+  },
+  {
+    "name": "VKA-186FB HTP Sprayer",
+    "name_mr": "VKA-186FB HTP स्प्रेयर",
+    "category": "HTP Sprayer",
+    "keywords": ["186FB", "htp", "sprayer", "vka"],
+    "images": ["images/VKA-186FB.png"],
+    "specs": {
+      "Model": "186FB",
+      "Type": "HTP Power Sprayer"
+    }
+  },
+  {
+    "name": "VKA Garden Sprayer",
+    "name_mr": "VKA गार्डन स्प्रेयर",
+    "category": "Garden Sprayer",
+    "keywords": ["garden", "sprayer", "manual", "vka"],
+    "images": ["images/sprayer.png"],
+    "specs": {
+      "Type": "Manual Garden Sprayer",
+      "Variants": "Multiple sizes available"
+    }
+  },
+  {
+    "name": "Airavat Hand Push Seeder",
+    "name_mr": "ऐरावत हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["airavat", "seeder", "manual", "push"],
+    "images": ["images/airavat.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Airavat"
+    }
+  },
+  {
+    "name": "Chetak Hand Push Seeder",
+    "name_mr": "चेतक हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["chetak", "seeder", "manual", "push"],
+    "images": ["images/chetak.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Chetak"
+    }
+  },
+  {
+    "name": "Gajaraj Hand Push Seeder",
+    "name_mr": "गजराज हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["gajaraj", "seeder", "manual", "push"],
+    "images": ["images/gajaraj.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Gajaraj"
+    }
+  },
+  {
+    "name": "Rainbow Hand Push Seeder",
+    "name_mr": "रेनबो हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["rainbow", "seeder", "manual", "push"],
+    "images": ["images/rainbow.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Rainbow"
+    }
+  },
+  {
+    "name": "Runner Hand Push Seeder",
+    "name_mr": "रनर हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["runner", "seeder", "manual", "push"],
+    "images": ["images/runner.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Runner"
+    }
+  },
+  {
+    "name": "Varad Hand Push Seeder",
+    "name_mr": "वरद हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["varad", "seeder", "manual", "push"],
+    "images": ["images/varad.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Varad"
+    }
+  },
+  {
+    "name": "Varun Hand Push Seeder",
+    "name_mr": "वरुण हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["varun", "seeder", "manual", "push"],
+    "images": ["images/varun.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Varun"
+    }
+  },
+  {
+    "name": "Vijay Hand Push Seeder",
+    "name_mr": "विजय हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["vijay", "seeder", "manual", "push"],
+    "images": ["images/vijay.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Vijay"
+    }
+  },
+  {
+    "name": "Growth 017A Hand Push Seeder",
+    "name_mr": "ग्रोथ 017A हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["growth", "017A", "seeder", "manual"],
+    "images": ["images/growth_017A.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Model": "017A"
+    }
+  },
+  {
+    "name": "Growth Hand Push Seeder",
+    "name_mr": "ग्रोथ हँड पुश सीडर",
+    "category": "Hand Push Seeder",
+    "keywords": ["growth", "seeder", "manual", "push"],
+    "images": ["images/growth.png"],
+    "specs": {
+      "Type": "Hand Push Seeder",
+      "Brand": "Growth"
+    }
+  },
+  {
+    "name": "Garden Tools Set",
+    "name_mr": "गार्डन टूल्स सेट",
+    "category": "Garden Tools",
+    "keywords": ["garden", "tools", "set", "manual"],
+    "images": ["images/garden_tools.png"],
+    "specs": {
+      "Type": "Garden Tools Set",
+      "Includes": "Multiple garden tools"
+    }
+  },
+  {
+    "name": "Garden Leaf Rake",
+    "name_mr": "गार्डन लीफ रेक",
+    "category": "Garden Tools",
+    "keywords": ["garden", "rake", "leaf", "manual"],
+    "images": ["images/garden_leaf_rake.png"],
+    "specs": {
+      "Type": "Leaf Rake"
+    }
+  },
+  {
+    "name": "Garden Secateur",
+    "name_mr": "गार्डन सिकेचर",
+    "category": "Garden Tools",
+    "keywords": ["garden", "secateur", "pruner", "manual"],
+    "images": ["images/garden_secature.png"],
+    "specs": {
+      "Type": "Garden Secateur/Pruner"
+    }
+  },
+  {
+    "name": "Hand Gloves",
+    "name_mr": "हँड ग्लव्हज",
+    "category": "Garden Tools",
+    "keywords": ["gloves", "hand", "garden", "safety"],
+    "images": ["images/handglows.png"],
+    "specs": {
+      "Type": "Garden Hand Gloves"
+    }
+  },
+  {
+    "name": "Sickles",
+    "name_mr": "विळे",
+    "category": "Garden Tools",
+    "keywords": ["sickle", "harvesting", "manual", "tool"],
+    "images": ["images/sickles.png"],
+    "specs": {
+      "Type": "Harvesting Sickles"
+    }
+  },
+  {
+    "name": "Blower",
+    "name_mr": "ब्लोअर",
+    "category": "Equipment",
+    "keywords": ["blower", "air", "garden"],
+    "images": ["images/blower.png"],
+    "specs": {
+      "Type": "Garden Blower"
+    }
+  },
+  {
+    "name": "Sprinkler",
+    "name_mr": "स्प्रिंकलर",
+    "category": "Equipment",
+    "keywords": ["sprinkler", "irrigation", "water"],
+    "images": ["images/sprinkler.png"],
+    "specs": {
+      "Type": "Irrigation Sprinkler"
+    }
+  },
+  {
+    "name": "Agricultural Equipment",
+    "name_mr": "कृषी उपकरणे",
+    "category": "Equipment",
+    "keywords": ["equipment", "agriculture", "tools"],
+    "images": ["images/equipments.png"],
+    "specs": {
+      "Type": "Various Agricultural Equipment"
+    }
+  }
+];

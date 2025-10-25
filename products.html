@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products • VKA</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png?v=2" alt="VKA Logo" class="logo" loading="eager" onerror="this.style.display='none'">
+        <span class="brand-text">VKA</span>
+      </a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active" data-i18n="nav_products">Products</a>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="tel:+912333214210" class="btn btn-small">📞 Call</a>
+        <button id="langToggle" class="btn small" data-i18n="lang_toggle">मराठी</button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Products</span>
+      </div>
+      <h1 data-i18n="products_title">Our Products</h1>
+      <p class="page-subtitle">Browse our complete range of agricultural equipment and tools</p>
+    </div>
+  </div>
+
+  <main class="container products-page">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>Categories</h3>
+        <div id="categories" class="category-list"></div>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3>Quick Contact</h3>
+        <div class="quick-contact">
+          <p><strong>📞 Phone</strong><br><a href="tel:+912333214210">02333 214210</a></p>
+          <p><strong>⏰ Hours</strong><br>Mon-Sat: 9AM-7PM</p>
+          <a href="https://wa.me/912333214210" class="btn btn-whatsapp" target="_blank">💬 WhatsApp</a>
+        </div>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3>Need Help?</h3>
+        <p style="font-size:14px;line-height:1.6;color:var(--muted)">Not sure which product is right for you? Contact our experts for personalized recommendations.</p>
+        <a href="contact.html" class="btn btn-outline btn-small">Contact Us →</a>
+      </div>
+    </aside>
+
+    <div class="products-content">
+      <div class="products-toolbar">
+        <div class="search-box">
+          <input id="search" type="search" placeholder="Search products..." data-i18n-placeholder="search_placeholder">
+        </div>
+        <div class="products-count" id="productsCount">Loading...</div>
+      </div>
+
+      <div id="grid" class="products-grid"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="images/logo.png" alt="VKA Logo" class="footer-logo">
+          <p><strong>Vijay Krushi Avajare</strong></p>
+          <p>Agricultural Equipment Dealer<br>Since 1996</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products.html">Power Weeders</a></li>
+            <li><a href="products.html">HTP Sprayers</a></li>
+            <li><a href="products.html">Seeders</a></li>
+            <li><a href="products.html">Garden Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Takali, Miraj, Sangli<br>Maharashtra - 416 111</p>
+          <p>Phone: <a href="tel:+912333214210">02333 214210</a></p>
+          <p>Email: <a href="mailto:vkaavajare@gmail.com">vkaavajare@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Vijay Krushi Avajare. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/912333214210" target="_blank" rel="noopener" aria-label="WhatsApp"></a>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/products-data.js"></script>
+  <script>window.PAGE="products";</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
