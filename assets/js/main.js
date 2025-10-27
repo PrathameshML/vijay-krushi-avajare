@@ -11,7 +11,7 @@
   const defaultLang = 'en';
   let lang = ls.getItem('lang') || defaultLang;
   const toggleBtn = $('#langToggle');
-  function setLang(next){ lang = next; ls.setItem('lang', lang); I18N.applyI18n(lang); updatePlaceholders(); }
+  function setLang(next){ lang = next; ls.setItem('lang', lang); I18N.applyI18n(lang); updatePlaceholders(); if(window.PAGE === 'products') initProducts(); if(window.PAGE === 'home') initHomepageProducts(); }
   function updatePlaceholders(){ if($('#search')) $('#search').setAttribute('placeholder', I18N.strings[lang].search_placeholder); }
   if(toggleBtn){ toggleBtn.addEventListener('click', ()=> setLang(lang==='en'?'mr':'en')); }
   I18N.applyI18n(lang);
@@ -178,5 +178,5 @@
   if(window.PAGE === 'product') initProduct();
   
   // Homepage
-  if(!window.PAGE) initHomepageProducts();
+  if(window.PAGE === 'home' || !window.PAGE) initHomepageProducts();
 })();
